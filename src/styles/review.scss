@@ -1,0 +1,88 @@
+.resto-review{
+    margin-bottom: 40px;
+    background-color: $primary-color;
+
+    .review {
+        .name {
+            color: $secondary-color;
+        }
+
+        .date {
+            color: $secondary-color;
+        }
+
+        p {
+          i {
+            display: inline-block;
+            color: $secondary-color;
+          }  
+        }
+    }
+
+    .form-review { 
+        box-shadow: 0 4px 8px 0 #00000033;
+        border-radius: 10px;
+        padding: 10px 20px;
+        background-color: $bg-color;
+        width: 100%;
+        margin: 0 auto;
+
+
+        h3 {
+            text-align: center;
+            color: $primary-color;
+        }
+
+        .form-field {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+
+            label {
+                display: inline-block;
+                font-size: .8rem;
+                font-weight: bold;
+                color: white;
+            }
+
+            input {
+                height: 44px;
+                min-width: 44px;
+                min-height: 44px;
+                display: inline-block;
+                border-radius: 5px;
+                border: $primary-color solid;
+            }
+
+            textarea {
+                display: inline-block;
+                height: 44px;
+                min-width: 44px;
+                min-height: 44px;
+                border-radius: 5px;
+                border: $primary-color solid;
+            }
+        }
+
+        button {
+            text-align: center;
+            margin: 0 auto;
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            color: $primary-color;
+            background-color: #9AD3CC;
+            min-width: 44px;
+            min-height: 44px;
+
+            &:hover {
+                background-color: #7aebdd;
+                transition: ease-in 0.3s;
+            }
+        }
+    }
+}

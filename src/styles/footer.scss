@@ -1,0 +1,12 @@
+footer {
+    .footer-container{
+        background-color: $primary-color;
+        font-size: 10px;
+        text-align: center;
+        color: $secondary-color;
+        z-index: 999;
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+    }
+}

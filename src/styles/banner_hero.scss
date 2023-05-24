@@ -1,0 +1,48 @@
+hero-element{
+  width: 100%;
+}
+
+.hero-container {
+    display: grid;
+    align-content: center;
+    height: $hero_height;
+    width: 100%;
+    color: $primary-color;
+    text-align: center;
+    background-position: center;
+    margin-top: 10px;
+    padding: 24px;
+    position: relative;
+
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      font-size:xx-large;
+
+      h1{
+        margin-bottom: 0px;
+      }
+    }
+    
+    picture,
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    picture {
+      position: absolute;
+      z-index: -1;
+    }
+  
+    img {
+      object-fit: cover;
+    }
+}
+
+  
+  
+  
