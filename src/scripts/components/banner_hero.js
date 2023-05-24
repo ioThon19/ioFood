@@ -1,4 +1,4 @@
-// import heroImage from '../../public/images/heros/hero-image_4.jpg';
+import heroImage from '../../public/images/heros/hero-image_4.jpg';
 
 class HeroElement extends HTMLElement {
   connectedCallback() {
@@ -14,7 +14,7 @@ class HeroElement extends HTMLElement {
             </div>
             <picture>
             <source media="(max-width: 600px)" srcset="./images/heros/hero-image_4-small.jpg">
-              <img src="./images/heros/hero-image_4-large.jpg" alt="Gambar Hero"/>
+              <img src="./images/heros/hero-image_4-large.jpg" alt="Hero Restaurant"/>
             </picture>
             </div>
         `;
